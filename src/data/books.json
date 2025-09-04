@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "country": "Spain",
+    "language": "Spanish"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "country": "Russia",
+    "language": "Russian"
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "year": 1925,
+    "country": "Czechia",
+    "language": "German"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "country": "Colombia",
+    "language": "Spanish"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "country": "United Kingdom",
+    "language": "English"
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "year": 1942,
+    "country": "France",
+    "language": "French"
+  },
+  {
+    "title": "The Name of the Rose",
+    "author": "Umberto Eco",
+    "year": 1980,
+    "country": "Italy",
+    "language": "Italian"
+  },
+  {
+    "title": "Blindness",
+    "author": "José Saramago",
+    "year": 1995,
+    "country": "Portugal",
+    "language": "Portuguese"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "year": 1937,
+    "country": "United Kingdom",
+    "language": "English"
+  },
+  {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "year": 1987,
+    "country": "Japan",
+    "language": "Japanese"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "country": "Brazil",
+    "language": "Portuguese"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "country": "Afghanistan",
+    "language": "English"
+  },
+  {
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "year": 1958,
+    "country": "Nigeria",
+    "language": "English"
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "year": 1943,
+    "country": "France",
+    "language": "French"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "country": "Russia",
+    "language": "Russian"
+  },
+  {
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "year": 1967,
+    "country": "Russia",
+    "language": "Russian"
+  },
+  {
+    "title": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "country": "United Kingdom",
+    "language": "English"
+  },
+  {
+    "title": "The Idiot",
+    "author": "Fyodor Dostoevsky",
+    "year": 1869,
+    "country": "Russia",
+    "language": "Russian"
+  },
+  {
+    "title": "Ficciones",
+    "author": "Jorge Luis Borges",
+    "year": 1944,
+    "country": "Argentina",
+    "language": "Spanish"
+  },
+  {
+    "title": "If on a winter's night a traveler",
+    "author": "Italo Calvino",
+    "year": 1979,
+    "country": "Italy",
+    "language": "Italian"
+  }
+]
