@@ -271,20 +271,14 @@ Please add these so the tests can be straightforward and stable:
   - `data-testid="year-input"`
   - `data-testid="country-input"`
   - `data-testid="language-input"`
-  - `data-testid="reset-button"`
 
 - Results
 
-  - `data-testid="results-count"` (e.g., “Showing 7 of 20”)
   - `data-testid="book-list"` on the list container
   - `data-testid="book-card"` on each rendered book card/row (each card will be located via `getAllByTestId('book-card')`)
   - Optional per-field inside the card:
 
     - `data-testid="book-title"`, `"book-author"`, `"book-year"`, `"book-country"`, `"book-language"`
-
-- Empty state
-
-  - `data-testid="empty-state"`
 
 ---
 

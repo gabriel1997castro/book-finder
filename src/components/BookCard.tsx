@@ -4,6 +4,7 @@ export const BookCard = ({ book }: { book: Book }) => {
   return (
     <div
       style={{ width: "100%", paddingTop: "0.5rem", paddingBottom: "0.5rem" }}
+      data-testid="book-card"
     >
       <li
         style={{
@@ -13,7 +14,7 @@ export const BookCard = ({ book }: { book: Book }) => {
           flexDirection: "column",
         }}
       >
-        <strong>title: {book.title}</strong>
+        <strong data-testid="book-title">title: {book.title}</strong>
         <span>author: {book.author}</span>
         <span>country: {book.country}</span>
         <span>language: {book.language}</span>

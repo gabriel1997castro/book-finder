@@ -28,6 +28,8 @@ export const BookList = ({ data }: BookListProps) => {
     justifyContent: "space-between",
   };
 
+  const booksToRender = filterBooks(data, filters);
+
   return (
     <div style={{ minWidth: "30rem" }}>
       <form
@@ -42,6 +44,7 @@ export const BookList = ({ data }: BookListProps) => {
           <input
             name="title"
             onChange={(e) => handleChangeFilter(e, "title")}
+            data-testid="title-input"
           />
         </div>
 
@@ -50,6 +53,7 @@ export const BookList = ({ data }: BookListProps) => {
           <input
             name="author"
             onChange={(e) => handleChangeFilter(e, "author")}
+            data-testid="author-input"
           />
         </div>
 
@@ -58,6 +62,7 @@ export const BookList = ({ data }: BookListProps) => {
           <input
             name="country"
             onChange={(e) => handleChangeFilter(e, "country")}
+            data-testid="country-input"
           />
         </div>
 
@@ -66,20 +71,30 @@ export const BookList = ({ data }: BookListProps) => {
           <input
             name="language"
             onChange={(e) => handleChangeFilter(e, "language")}
+            data-testid="language-input"
           />
         </div>
 
         <div style={inputStyle}>
           <label htmlFor="year">Year</label>
-          <input name="year" onChange={(e) => handleChangeFilter(e, "year")} />
+          <input
+            name="year"
+            onChange={(e) => handleChangeFilter(e, "year")}
+            data-testid="year-input"
+          />
         </div>
       </form>
 
       <br />
-      <div style={{ width: "80%" }}>
-        {filterBooks(data, filters).map((book) => (
-          <BookCard book={book} />
-        ))}
+      <div style={{ width: "80%" }} data-testid="book-list">
+        {booksToRender.length ? (
+          booksToRender.map((book) => <BookCard book={book} />)
+        ) : (
+          <div data-testid="empty-state">No books</div>
+        )}
+      </div>
+      <div data-testid="results-count">
+        Showing {booksToRender.length} of {data.length}
       </div>
     </div>
   );
